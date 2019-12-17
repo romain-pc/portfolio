@@ -1,14 +1,37 @@
 body {
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-	background-image: url(assets/images/image.jpg);
-	
+
+	background-color: lightblue;
+	height: 2000px;
 }
 
 
-/* HEADER */
-header {
+div.midblock {
+
+	background-color: white;
+	height: 2000px;
+	width: 1580px;	
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+
+h1 {
+
 	text-align: center;
-	padding-top: 20px;
-	position: relative;
+
+
+}
+
+ul.links {
+
+	text-align: center;
+
+
+}
+
+div.logo {
+
+	align-content: center;
+	
+
 }
