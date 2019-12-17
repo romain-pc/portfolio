@@ -1,29 +1,31 @@
 body {
 
-	background-color: lightblue;
-	height: 2000px;
+	background-image: "";
+	height: 800px;
 }
 
 
 div.midblock {
 
-	background-color: white;
-	height: 2000px;
+	background-color: lightgreen;
+	height: 800px;
 	width: 1580px;	
 	margin-left: 200px;
 	margin-right: 200px;
 
 }
 
-h1 {
-
-	text-align: center;
-
+div.header {
+	padding top: 0px;
+	align-items: center;
+	background-color: lightblue;
 
 }
 
-ul.links {
 
+h1 {
+	padding: 20px;
+	margin: 0px;
 	text-align: center;
 
 
@@ -31,7 +33,25 @@ ul.links {
 
 div.logo {
 
-	align-content: center;
-	
+	align-items: center;
+	width: 200px;
+
 
 }
+
+nav a, nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	padding: 20px 15px;
+	font-size: 22px;
+
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	display: inline; 	
+}
+
