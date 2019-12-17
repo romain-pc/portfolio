@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(assets/images/image.jpg);
+	
+}
+
+
+/* HEADER */
+header {
+	text-align: center;
+	padding-top: 20px;
+	position: relative;
+}
