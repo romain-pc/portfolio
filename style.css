@@ -1,9 +1,14 @@
+
+
 div.header {
-	background-color: lightblue;
 	text-align: center;	
 	align-content: center;
-	font-size: 40px;
 	width: auto;	
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;position: relative;
 
 
 
@@ -12,7 +17,7 @@ div.header {
 
 div.logo {
 
-	background-color: lightgreen;
+	
 	width: 200px;
 	padding: 20px;
 
@@ -22,8 +27,12 @@ div.logo {
 
 h1 {
 
-	background-color: lightyellow;		
+	color: black		;
+	font-family: arial;
+	font-size: 70px;	
 	display: inline-block;
+	margin: 0px;
+	padding-bottom: 150px;
 
 
 
@@ -35,11 +44,10 @@ h1 {
 
 div.midblock {
 	background-color: lightgreen;
-	height: 1080px;
+	height: 2000px;
 	width: auto	;	
 	margin-left: 300px;
 	margin-right: 300px;
-	background-image: url(background.jpg);
 	background-repeat: no-repeat;	
 	background-size: cover;	
 
@@ -47,46 +55,49 @@ div.midblock {
 
 /*links*/
 
-nav a, nav a {
-	display: inline-block;
+
+
+/* MENU */
+nav {
+	box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
 	padding: 20px 15px;
 	font-size: 22px;
-
 }
 
-nav ul {
-	list-style-type: none;
-	text-align: center;
-	display: inline; 	
-	padding: 20px;
-	font-size: 40px;
-	text-decoration: none;	
-}
-
-nav li {
-	padding: 20px;
-	font-size: 25px;
+ul.lvl_1 {
+	margin: 0;
 	text-align: center;	
-	text-decoration: none;	
-
-
-
-
 }
+
+ul.lvl_1 > li {
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	text-align: center;
+}
+
+
+
 
 /*body*/
 
 body {
-	background-image: url(background.jpg);
-	
+
+	height: 3000px;	
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
+
 
 }
 
@@ -102,12 +113,13 @@ section.header_title {
 
 
 li.cv {
-  	width: auto;
- 	padding: 10px;
-  	border: 5px solid gray;
+
+    width: auto;
+    padding: 10px;
+    border: 5px solid gray;
     margin-left: 280px;
     margin-right: 280px;
-    margin-top: 150px;
+    margin-top: 150px
 
 }
 
@@ -144,3 +156,5 @@ li.cv :hover {
 
 
 }
+
+
