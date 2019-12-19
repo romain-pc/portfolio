@@ -72,10 +72,9 @@ nav a {
 }
 
 ul.lvl_1 {
-	margin-right: 20px;
 	margin: 10px;
 	right: 20px;
-
+	width: 600px;
 }
 
 ul.lvl_1 > li {
@@ -84,7 +83,12 @@ ul.lvl_1 > li {
 	padding-left: 20px;
 	text-align: center;
 }
-
+nav.menu {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: 600px;
+}
 
 /*rs*/
 
