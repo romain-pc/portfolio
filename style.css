@@ -1,10 +1,12 @@
 
-
+body {
+	font-family: 'Paytone One', sans-serif;
+}
 div.header {
 	text-align: center;	
 	align-content: center;
 	width: auto;	
-	background-image: url(background.jpg);
+	background-image: url(assets/images/background.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -12,6 +14,53 @@ div.header {
 
 
 
+}
+ul.rs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	right: 50px;
+}
+
+ul.rs li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ul.rs li a,
+ul.rs li a:visited {
+	font-size: 28px;
+}
+
+a.facebook{
+	color: #000;
+}
+a.twitter{
+	color: #000;
+}
+a.github{
+	color: #000;
+}
+a.insta{
+	color: #000;
+}
+a.facebook:hover,
+a.facebook:focus {
+    color: #3b5998;
+}
+a.twitter:hover,
+a.twitter:focus {
+    color: #00acee;
+}
+a.insta:hover,
+a.insta:focus {
+    color: #833AB4;
+}
+a.github:hover,
+a.github:focus {
+    color: #000;
 }
 
 
@@ -157,4 +206,30 @@ li.cv :hover {
 
 }
 
+/* FOOTER */
+footer {
+	box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	padding: 20px 100px 20px 100px;
+	background-color: #FFF;
+	z-index: 10000000000;
+}
 
+footer .right {
+	position: absolute;
+	top: 0;
+	right: 300px;
+}
+
+ul.footer_links {
+	list-style-type: none;
+}
+
+ul.footer_links li {
+	display: inline-block;
+	padding: 4px 8px;
+}
