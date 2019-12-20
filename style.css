@@ -72,11 +72,14 @@ nav a {
 }
 
 ul.lvl_1 {
+	position: absolute;	
+	margin-left: 20px;
+	margin-right: 20px;
 	display: inline-block;	
 	right: 20px;
-	width: 1000px;
-	position: fixed;
+	width: 1500px;
 	padding-bottom: 20px;
+	position: fixed;
 }
 
 ul.lvl_1 > li {
@@ -195,8 +198,48 @@ li.contact {
 
 
 }
+/*contact page*/
+
+nav ul {
+	list-style-type: none;
+	display: inline-block;
+}
+nav a {
+
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	display: inline-block;	
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 
+ul.lvl_2 {
+	position: absolute;	
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;	
+	right: 20px;
+	width: 1500px;
+	padding-bottom: 20px;
+	position: fixed;	
+}
+
+ul.lvl_2 > li {
+
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+
+/**/
 li.about_me {
 
 	width: auto;
@@ -392,9 +435,11 @@ input[type=submit]:hover {
 }
 
 div.container {
-	margin-top: 50px;
-	position: absolute;	
-	left: 500px;
+	font-size: 	15px;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 150px;
+	transform:translateX(+50%);
 	text-align: center;	
 	width: 800px;
 	border-radius: 5px;
@@ -415,7 +460,7 @@ span.intro {
 h2 {
 	font-size: 35px;
 	margin-bottom: 0px;
-	padding-bottom: 150px;
+	padding-bottom: 350px;
 	text-align: center;	
 	font-family: 'Inria Serif', serif;
 
@@ -427,7 +472,7 @@ h2 {
 div.dp {
 
 
-	height: 1200px;
+	height: auto;
 }
 
 
@@ -457,14 +502,14 @@ html {
 /*breakpoints*/
 
 /*header links*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1450px) {
 
 	html {
 
 		font-size: 10px;
 	}
 
-	img {
+	div#logo img {
 
 		width: 0px;
 		height: 0px;
@@ -477,13 +522,20 @@ html {
 
 
 	h1 {
-		margin-top: 300px;
+		margin-top: 200px;
 		margin-bottom: 	30px;
 		font-size: 50px;
 		padding-bottom: 25px;
 
 
 	}
+
+	div.boxed2 {
+		width: 50%
+
+
+	}
+
 
 	
 	nav ul {
@@ -497,7 +549,8 @@ html {
 		text-transform: uppercase;
 		padding: 20px 20px 20px 20px;
 		font-size: 20px;
-		display: inline-block;	
+		display: inline-block;
+		width: auto;		
 		margin-left: 20px;
 		margin-right: 20px;
 	}
@@ -522,4 +575,52 @@ html {
 		padding-bottom: 20px;
 	}
 
-	
+
+	ul.lvl_2 {
+		position: absolute;	
+		margin-left: 20px;
+		margin-right: 20px;
+		display: inline-block;	
+		right: 20px;
+		width: auto;
+		padding-bottom: 20px;
+		position: fixed;	
+	}
+
+	ul.lvl_2 > li {
+
+		display: inline-block;
+		position: relative;
+		padding-left: 20px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	div.container {
+
+		margin-left: 150px;
+		margin-right: 150px;
+		width: auto;
+		transform: translateX(0);
+
+
+	}
+
+
+	@media only screen and (max-width: 1000px) {
+
+		div.boxed1 {
+			width: auto;
+			margin-left: 25px;
+			margin-right: 25px;
+
+
+
+
+		}
+
+	  div.imgpage1 {
+	  	margin: 25px;
+
+
+	  }
